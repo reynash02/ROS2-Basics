@@ -29,6 +29,9 @@ endif()
 install(PROGRAMS
   nodes/pub_python.py
   nodes/sub_python.py
+  nodes/serv_python.py
+  nodes/client_python.py
+  
   DESTINATION lib/${PROJECT_NAME}
 )
 
