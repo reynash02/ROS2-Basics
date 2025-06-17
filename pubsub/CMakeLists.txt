@@ -11,7 +11,18 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(pubsub REQUIRED)
 
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Num.msg"
+  "msg/Sphere.msg"
+  "srv/Addthreeints.srv"
+  DEPENDENCIES geometry_msgs
+)
+
+ament_export_dependencies(rosidl_default_runtime)
 
 
 if(BUILD_TESTING)
@@ -31,6 +42,10 @@ install(PROGRAMS
   nodes/sub_python.py
   nodes/serv_python.py
   nodes/client_python.py
+  nodes/msg_nodes/num_pub.py
+  nodes/msg_nodes/num_sub.py
+  nodes/msg_nodes/sphere_pub.py
+  nodes/msg_nodes/sphere_sub.py
   
   DESTINATION lib/${PROJECT_NAME}
 )
