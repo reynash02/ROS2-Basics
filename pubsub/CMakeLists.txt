@@ -46,6 +46,8 @@ install(PROGRAMS
   nodes/msg_nodes/num_sub.py
   nodes/msg_nodes/sphere_pub.py
   nodes/msg_nodes/sphere_sub.py
+  nodes/srv_nodes/addthree_server.py
+  nodes/srv_nodes/addthree_client.py
   
   DESTINATION lib/${PROJECT_NAME}
 )
