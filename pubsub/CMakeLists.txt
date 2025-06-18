@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "msg/Sphere.msg"
   "srv/Addthreeints.srv"
+  "action/Fib.action"
   DEPENDENCIES geometry_msgs
 )
 
@@ -48,6 +49,8 @@ install(PROGRAMS
   nodes/msg_nodes/sphere_sub.py
   nodes/srv_nodes/addthree_server.py
   nodes/srv_nodes/addthree_client.py
+  nodes/action_nodes/action_server.py
+  nodes/action_nodes/action_client.py
   
   DESTINATION lib/${PROJECT_NAME}
 )
