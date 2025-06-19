@@ -38,6 +38,11 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
+)
+
 install(PROGRAMS
   nodes/pub_python.py
   nodes/sub_python.py
@@ -51,6 +56,7 @@ install(PROGRAMS
   nodes/srv_nodes/addthree_client.py
   nodes/action_nodes/action_server.py
   nodes/action_nodes/action_client.py
+  launch/turtlesim.launch.py
   
   DESTINATION lib/${PROJECT_NAME}
 )
