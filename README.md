@@ -1,4 +1,5 @@
 # ROS2-Basics
 How I began learning ROS2
 
-Started with the ROS2 Tutorial by Kevin Wood. Helped me a lot in learning the basics
+ROS2 Basics: Kevin Wood Youtube Channel, Automatic Addison Blogs
+Tf2: Kevin Wood Yt, Easy Peasy Robotics Yt, Articulated Robotics Website, Tf2 ROS2 Humble Docs
