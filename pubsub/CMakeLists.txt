@@ -40,6 +40,8 @@ endif()
 
 install(DIRECTORY
   launch
+  turtlesim_project
+  config
   DESTINATION share/${PROJECT_NAME}/
 )
 
