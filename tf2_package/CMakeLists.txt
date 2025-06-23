@@ -24,11 +24,17 @@ endif()
 
 install(PROGRAMS
   src/static_turtle_tf2_broadcaster.py
+  src/turtle_tf2_broadcaster.py
+  src/listener.py
+  src/adding_fixed_frame.py
+  src/adding_dynamic_frame.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
 install(DIRECTORY
   launch
+  src
+  urdf
   DESTINATION share/${PROJECT_NAME}/
 )
 
