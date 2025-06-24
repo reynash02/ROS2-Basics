@@ -28,6 +28,8 @@ install(PROGRAMS
   src/listener.py
   src/adding_fixed_frame.py
   src/adding_dynamic_frame.py
+  src/test1.py
+  src/test2.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
