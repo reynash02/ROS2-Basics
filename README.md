@@ -12,5 +12,5 @@ Testing: Arne's Blog, BCR Blog, Kevin Wood Yt, Automatic Addison Blog, ROS2 Docs
 URDF: Automatic Addison, Kevin Wood Yt, ROS2 Docs, Santosh Balaji Medium Blog, Alexander Haber Yt, Robotics Back-End, Articulated Robots, 
 
 
-ROS2 Jazzy Tutorial Yt, Soft Illusion Yt, RobotLabs
+ROS2 Jazzy Tutorial Yt, Soft Illusion Yt, RobotLabs, Learn Robotics with ROS Yt
 
