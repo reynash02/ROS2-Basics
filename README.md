@@ -9,7 +9,7 @@ Lifecycle Nodes: ROS2 Design, FoxGlove Blog, Robotics Back-End Yt
 
 Testing: Arne's Blog, BCR Blog, Kevin Wood Yt, Automatic Addison Blog, ROS2 Docs, Hummingbird
 
-URDF: Automatic Addison, Kevin Wood Yt, ROS2 Docs, Santosh Balaji Medium Blog, Alexander Haber Yt, Robotics Back-End, Articulated Robots, 
+URDF: Automatic Addison, Kevin Wood Yt, ROS2 Docs, Santosh Balaji Medium Blog, Alexander Haber Yt, Robotics Back-End, Articulated Robots
 
 Gazebo:
 
