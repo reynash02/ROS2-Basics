@@ -27,6 +27,7 @@ install(DIRECTORY
   world
   src
   launch
+  config
   DESTINATION share/${PROJECT_NAME}/
 )
 
