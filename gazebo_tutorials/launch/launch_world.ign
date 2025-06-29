@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<ignition version='1.0'>
+  <executable name='sensor-world'>
+    <command>ign gazebo /home/reynash/ros2_ws/src/gazebo_tutorials/world/test_world.sdf</command>
+  </executable>
+
+</ignition>
